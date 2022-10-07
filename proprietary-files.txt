@@ -455,7 +455,6 @@ product/etc/permissions/telephonyservice.xml:system_ext/etc/permissions/telephon
 product/framework/QtiTelephonyServicelibrary.jar:system_ext/framework/QtiTelephonyServicelibrary.jar
 product/framework/qcrilhook.jar:system_ext/framework/qcrilhook.jar
 product/framework/qti-telephony-common.jar:system_ext/framework/qti-telephony-common.jar|96154b2576114dd566bbc99a2d9af612de8849df
-vendor/bin/ATFWD-daemon
 vendor/bin/adpl
 vendor/bin/ipacm-diag
 vendor/bin/netmgrd
@@ -478,7 +477,6 @@ vendor/lib/libpdmapper.so
 vendor/lib/libpdnotifier.so
 vendor/lib/libqcmaputils.so
 vendor/lib/vendor.qti.hardware.radio.am@1.0.so
-vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 vendor/lib/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
 vendor/lib/vendor.qti.hardware.radio.lpa@1.0.so
 vendor/lib/vendor.qti.hardware.radio.qcrilhook@1.0.so
@@ -517,7 +515,6 @@ vendor/lib64/librilqmiservices.so
 vendor/lib64/libsettings.so
 vendor/lib64/libsystem_health_mon.so
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so
-vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.internal.deviceinfo@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.lpa@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.qcrilhook@1.0.so
