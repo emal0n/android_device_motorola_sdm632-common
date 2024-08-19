@@ -74,6 +74,7 @@ pm.dexopt.shared=quicken
 
 # Display
 debug.renderengine.backend=skiaglthreaded
+debug.sf.enable_gl_backpressure=false
 debug.sf.hw=1
 debug.hwui.skia_atrace_enabled=false
 debug.sf.auto_latch_unsignaled=0
