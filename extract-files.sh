@@ -110,6 +110,13 @@ function blob_fixup() {
         vendor/lib/soundfx/libspeakerbundle.so | vendor/lib/sensors.rp.so | vendor/lib64/sensors.rp.so)
             "${PATCHELF}" --replace-needed libutils.so libutils-v32.so "${2}"
             ;;
+        vendor/lib*/libwvhidl.so)
+            [ "$2" = "" ] && return 0
+            grep -q libcrypto_shim.so "${2}" || "${PATCHELF}" --add-needed "libcrypto_shim.so" "${2}"
+            ;;
+        *)
+            return 1
+            ;;
     esac
 }
 
