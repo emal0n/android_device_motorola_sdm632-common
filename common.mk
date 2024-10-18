@@ -26,6 +26,9 @@ AB_OTA_POSTINSTALL_CONFIG += \
 # APEX
 OVERRIDE_PRODUCT_COMPRESSED_APEX := false
 
+# Audio (Dolby Atmos)
+$(call inherit-product, hardware/motorola/dolby/setup.mk)
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl:32 \
